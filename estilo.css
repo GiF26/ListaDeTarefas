@@ -1,0 +1,114 @@
+        body {
+            width: auto;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            background-color: rgb(46, 45, 45);
+            text-align: center;
+            font-family:'Roboto', sans-serif;
+            
+        }
+
+       .intro {
+            margin: 30px 0px;
+        }
+
+        h1 {
+            background: #9b3232;
+            color: white;
+            margin: 0;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        p {
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-weight: lighter ;
+
+        }
+
+         .dados{
+            margin: 0 auto;
+            width: 70%;
+        }
+
+        #enter {
+            border: none;
+            height: 35px;
+            margin-right: 60px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color: #9b3232;
+            transition: all 0.75s ease;
+            -webkit-transition: all 0.75s ease;
+            -moz-transition: all 0.75s ease;
+            -ms-transition: all 0.75s ease;
+            -o-transition: all 0.75 ease;
+            font-weight:bold;
+            font-size: 15px;
+            display: inline-block;
+        }
+
+        #enter:hover{
+            background-color: #ffffff;
+            color: #9b3232;
+        }
+
+        ul {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+
+        li {
+            list-style-type:circle;
+            padding: 10px 20px;
+            color: #ffffff;
+            text-transform:capitalize;
+            font-weight: lighter;
+            border: 2px solid rgb(46, 45, 45);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background: rgb(46, 45, 45);
+            transition: all 0.75s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5 ease;
+        }
+
+        li:hover{
+            background: #9b3232;
+        }
+
+        li > button {
+            font-weight: normal;
+            background: none;
+            border: none;
+            float: right !important;
+            color: #ffffff;
+            font-weight: 800;
+        }
+
+        input {
+            border-radius: 5px;
+            min-width: 90%;
+            padding: 5px;
+            height: 35px;
+            border: none;
+            margin: 0px;
+            float: left;
+        }
+        
+        .done {
+            background: #51DF70 !important;
+            color: #00891E;
+        }
+
+        .delete {
+            display: none;
+        }

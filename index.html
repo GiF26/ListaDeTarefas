@@ -1,0 +1,46 @@
+<html>
+<head>
+    <!--  Impportação do documento de estilização-->
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+	<div class="body">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>Gestor de Tarefas</h1>
+				<div>
+					<div class="border1"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="first">Insira o texto no campo abaixo para adicionar suas tarefas.</p>
+				<p id="second">Clique no item para marcá-lo como atividade concluída.</p>
+				<p id="third">Clique no "X" para remover o item da sua lista.</p>
+			</div>
+		</div>
+
+		<div class="row" style="width: 100%">
+			<div class="dados col-6">
+				<input id="userInput" type="text" placeholder="Nova Tarefa..." maxlength="27">
+				<button id="enter">+</button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2" id="ul">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+    <script src="script.js"></script>
+	
+</body>
+</html>
